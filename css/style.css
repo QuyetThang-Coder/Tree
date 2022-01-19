@@ -116,10 +116,10 @@ body {
 .header_bottom-left p{
     font-size: 14px;
     color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 40px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-family: sans-serif;
+    font-weight: 300;
     padding-left: 12px;
     display: inline-block;
 }
@@ -147,9 +147,9 @@ body {
     display: inline-block;
     text-align: center;
     line-height: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
     /* flex: 1; */
 }
 .header_bottom-right--content:hover {
