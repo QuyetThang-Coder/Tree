@@ -120,7 +120,8 @@
                                     <p>Số 360 Kim Mã, P. Ngọc Khánh, Q. Ba Đình, Tp. Hà Nội, Việt Nam</p>
                                     <p>Tel: (84-28) 38200 466</p>
                                 </div>
-                                <div class="google-map" id="googleMap"></div>
+                                <!-- <div class="google-map" id="googleMap"></div> -->
+                                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.050014210693!2d105.78085969163293!3d21.030684718727446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab4caf655555%3A0x65d290d4fb770e9!2sFpt%20Software!5e0!3m2!1svi!2s!4v1642559981947!5m2!1svi!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <div class="body_right col l-6">
                                 <input type="text" placeholder="Tên *">
@@ -195,7 +196,7 @@
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCO-ewA7hWgOCDV70ANtQxCwfxVs29ufK8&sensor=false"></script>
     <script>
         // khai báo tọa độ của place
-        var myCenter=new google.maps.LatLng(21.0310626,105.7817593);
+        var myCenter=new google.maps.LatLng(21.03109529916261, 105.78276942439899);
         function initialize()
         {
             var mapProp = {
@@ -209,7 +210,7 @@
                 //icon: "pinkball.png",
                 title: "FPT SoftWare",
                 // draggable: true,
-                animation:google.maps.Animation.BOUNCE,
+                // animation:google.maps.Animation.BOUNCE,
             });
             marker.setMap(map);
         }
