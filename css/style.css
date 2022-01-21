@@ -263,7 +263,7 @@ body {
     
 }
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 740px) and (max-width: 1023.2px) {
     .header_top__location {
         align-items: center;
     }
@@ -380,7 +380,7 @@ body {
         left: 0;
         right: 0;
         top: 0;
-        z-index: 9999;
+        z-index: 999;
         -webkit-transition: all 0.2s ease-in-out;
     }
     /* Header top */
@@ -427,6 +427,7 @@ body {
         height: 100%;
         padding: 0 34px 0 30px;
         animation: openSideBar linear 0.2s;
+        will-change: opacity;
     }
     /* search */
     .header_side-bar-search {

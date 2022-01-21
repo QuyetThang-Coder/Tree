@@ -58,17 +58,17 @@
                             <!-- header bottom -->
                             <div class="header_center col l-6 m-6 c-0">
                                 <div class="header_center-content row">
-                                    <div class="header_center-content--text header_center-content--select l-3 m-3">
-                                        <a href="./index.html">Trang chủ</a>
+                                    <div class="header_center-content--text l-3 m-3">
+                                        <a href="../index.html">Trang chủ</a>
                                     </div>
                                     <div class="header_center-content--text l-3 m-3">
-                                        <a href="./product.html">Các sản phẩm</a>
+                                        <a href="../product.html">Các sản phẩm</a>
                                     </div>
                                     <div class="header_center-content--text l-3 m-3">
-                                        <a href="./services.html">Dịch vụ</a>
+                                        <a href="../services.html">Dịch vụ</a>
                                     </div>
                                     <div class="header_center-content--text l-3 m-3">
-                                        <a href="./contact.html">Liên hệ</a>
+                                        <a href="../contact.html">Liên hệ</a>
                                     </div>
                                 </div>
                             </div>
@@ -248,13 +248,97 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Tablet -->
+                        <!-- Tablet -Mobile -->
                         <div class="body_tablet l-0">
+                            <!-- sort -->
                             <div class="tablet_sort">
-                                <button class="btn btn_color">Sắp xếp theo</button>
+                                <label class="btn btn_color" for="sort_checkbox">Sắp xếp theo</label>
+                                <input type="checkbox" id="sort_checkbox" class="sort_checkbox">
+                                <div class="side_bar-sort l-0 m-12 c-12">
+                                    <div class="side_bar-sort-title">
+                                        <h6>Sắp xếp theo</h6>
+                                        <label for="sort_checkbox">
+                                            <i class="icon_close fal fa-times"></i>
+                                        </label>
+                                    </div>
+                                    <div class="custom-select">
+                                        <select>
+                                            <option value="0">Tất cả</option>
+                                            <option value="1">Tất cả</option>
+                                            <option value="2">A - Z</option>
+                                            <option value="3">Z - A</option>
+                                            <option value="4">Mới nhất</option>
+                                            <option value="5">Cũ nhất</option>
+                                            <option value="6">Giá cao nhất</option>
+                                            <option value="7">Giá thấp nhất</option>
+                                        </select>
+                                        <i class="fal fa-chevron-down"></i>
+                                    </div>
+                                </div>
                             </div>
+                            <!-- filter -->
                             <div class="tablet_filter">
-                                <button class="btn btn_color">Lọc bởi</button>
+                                <label for="filter_checkbox" class="btn btn_color">Lọc bởi</label>
+                                <input type="checkbox" id="filter_checkbox" class="filter_checkbox">
+                                <div class="side_bar-filter l-0 m-12 c-12">
+                                    <div class="side_bar-filter-title">
+                                        <h6>Lọc bởi</h6>
+                                        <label for="filter_checkbox">
+                                            <i class="icon_close fal fa-times"></i>
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <div class="popular">
+                                            <p>Phổ biến</p>
+                                            <div>
+                                                <input type="checkbox" id="selling" name="selling">
+                                                <label for="selling">Bán chạy</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="new" name="new">
+                                                <label for="new">Mới</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="popular" name="popular">
+                                                <label for="popular">Phổ biến</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="special" name="special">
+                                                <label for="special">Đặc biệt</label>
+                                            </div>
+                                        </div>
+                                        <div class="popular">
+                                            <p>Cấp độ</p>
+                                            <div>
+                                                <input type="checkbox" id="start" name="start">
+                                                <label for="start">Bắt đầu</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="dotted" name="dotted">
+                                                <label for="dotted">Người say mê</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="experts" name="experts">
+                                                <label for="experts">Chuyên gia</label>
+                                            </div>
+                                        </div>
+                                        <div class="popular">
+                                            <p>Phụ kiện</p>
+                                            <div>
+                                                <input type="checkbox" id="accessory" name="accessory">
+                                                <label for="accessory">Phụ kiện máy ảnh du lịch</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="eos" name="eos">
+                                                <label for="eos">EOS</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="lens" name="lens">
+                                                <label for="lens">Lens</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!-- body right -->
