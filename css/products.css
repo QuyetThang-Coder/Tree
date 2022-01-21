@@ -547,6 +547,7 @@
     }
     .slider_item-img {
         width: 100%;
+        max-height: 100px;
         height: 60px;
     }
     .slider_item .slider_item-title {
@@ -600,5 +601,17 @@
     .body_right-item .body_right-item--title h2 {
         font-size: 12px;
         font-family: sans-serif;
+    }
+}
+@media (min-width: 600px) and (max-width: 739px) {
+    .slider_item-img {
+        width: 100%;
+        height: 100px;
+    }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+    .slider_item-img {
+        width: 100%;
+        height: 80px;
     }
 }
