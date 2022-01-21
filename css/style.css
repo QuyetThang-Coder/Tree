@@ -152,7 +152,7 @@ body {
 }
 .header_bottom-right--content .header_bottom-right-icon i {
     color: #fff;
-    padding: 0 20px;
+    padding: 0 18px;
     cursor: pointer;
     display: inline-block;
     text-align: center;
@@ -263,7 +263,7 @@ body {
     
 }
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023.2px) {
+@media (min-width: 740px) and (max-width: 1023px) {
     .header_top__location {
         align-items: center;
     }

@@ -220,7 +220,7 @@
     }
 }
 /* PC low resolution > */
-@media (min-width: 1113px) {
+@media (min-width: 1024px) {
     .row {
         margin-left: -12px;
         margin-right: -12px;
@@ -363,7 +363,7 @@
     .wide .l-10,
     .wide .l-11,
     .wide .l-12 {
-        display: block;
+        /* display: block; */
     }
     .wide .l-1 {
         flex: 0 0 8.33333%;
