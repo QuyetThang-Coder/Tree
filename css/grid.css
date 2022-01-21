@@ -10,8 +10,8 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -4px;
-    margin-right: -4px;
+    /* margin-left: -4px;
+    margin-right: -4px; */
 }
 .row.no-gutters {
     margin-left: 0;
@@ -109,7 +109,6 @@
 .c-o-11 {
     margin-left: 91.66667%;
 }
-
 
 /* >= Table */
 @media (min-width: 740px) {

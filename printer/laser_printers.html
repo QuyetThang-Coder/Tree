@@ -18,70 +18,99 @@
     <div id="main">
         <!-- Header -->
         <div id="header">
-            <!-- Header-top -->
-            <div class="header_top">
-                <div class="grid wide">
-                    <div class="row">
-                        <div class="header_logo col l-2">
-                            <a href="../index.html">
+            <div class="header">
+                <!-- Header-top -->
+                <div class="header_top">
+                    <div class="grid wide">
+                        <div class="header_top__location row">
+                            <!-- mobile bar-->
+                            <label for="mobile_bar-checkbox" class="header_mobile-bar col l-0 m-0 c-2">
+                                <i class="bar_icon far fa-bars"></i>
+                            </label>
+                            <input type="checkbox" id="mobile_bar-checkbox" class="mobile_bar-checkbox l-0 m-0">
+                            <!-- side bar -->
+                            <div class="header_side-bar l-0 m-0 c-12">
+                                <div class="header_side-bar-search">
+                                    <input type="text" id="mobile_bar-search" placeholder="Tìm kiếm">
+                                    <label for="mobile_bar-search" class="lb_mobile_bar-search">
+                                        <i class="fal fa-search"></i>
+                                    </label>
+                                </div>
+                                <ul>
+                                    <li><a href="../index.html">Trang chủ</a></li>
+                                    <li><a href="../product.html">Các sản phẩm</a></li>
+                                    <li><a href="../services.html">Dịch vụ</a></li>
+                                    <li><a href="../contact.html">Liên hệ</a></li>
+                                    <li><a href="#">So sánh</a></li>
+                                    <li><a href="#">Yêu thích</a></li>
+                                    <li><a href="#">Đăng nhập</a></li>
+                                </ul>
+                            </div>
+                            <!-- Logo -->
+                            <div class="header_logo col l-2 m-2 c-4">
+                                <a href="../index.html"></a>
                                 <img src="../img/logo-Canon-vietnam.png" alt="">
-                            </a>
-                        </div>
-                        <!--  -->
-                        <div class="header_center col l-6">
-                            <div class="header_center-content row">
-                                <div class="header_center-content--text l-3">
-                                    <a href="../index.html">Trang chủ</a>
-                                </div>
-                                <div class="header_center-content--text l-3">
-                                    <a href="../product.html">Các sản phẩm</a>
-                                </div>
-                                <div class="header_center-content--text l-3">
-                                    <a href="../services.html">Dịch vụ</a>
-                                </div>
-                                <div class="header_center-content--text l-3">
-                                    <a href="../contact.html">Liên hệ</a>
+                            </div>
+                            <!-- cart mobile -->
+                            <div class="header_mobile-cart col l-0 m-0 c-2">
+                                <i class="far fa-shopping-cart"></i>
+                            </div>
+                            <!-- header bottom -->
+                            <div class="header_center col l-6 m-6 c-0">
+                                <div class="header_center-content row">
+                                    <div class="header_center-content--text header_center-content--select l-3 m-3">
+                                        <a href="./index.html">Trang chủ</a>
+                                    </div>
+                                    <div class="header_center-content--text l-3 m-3">
+                                        <a href="./product.html">Các sản phẩm</a>
+                                    </div>
+                                    <div class="header_center-content--text l-3 m-3">
+                                        <a href="./services.html">Dịch vụ</a>
+                                    </div>
+                                    <div class="header_center-content--text l-3 m-3">
+                                        <a href="./contact.html">Liên hệ</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!--  -->
-                        <div class="col l-4">
-                            <div class="header_right row">
-                                <div class="header_right-search l-9">
-                                    <input type="text" placeholder="Tìm kiếm">
-                                    <i class="fal fa-search"></i>
-                                </div>
-                                <div class="header_right-cart l-3">
-                                    <i class="far fa-shopping-cart"></i>
+                            <!--  -->
+                            <div class="col l-4 m-4 c-0">
+                                <div class="header_right row">
+                                    <div class="header_right-search l-9 m-10">
+                                        <input type="text" placeholder="Tìm kiếm">
+                                        <i class="fal fa-search"></i>
+                                    </div>
+                                    <div class="header_right-cart l-3 m-2">
+                                        <i class="far fa-shopping-cart"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Header-bottom -->
-            <div class="header_bottom">
-                <div class="grid wide">
-                    <div class="row">
-                        <div class="col l-3">
-                            <div class="header_bottom-left">
-                                <p>Canon</p>
-                                <p class="header_bottom-left-slogan"></p>
+                <!-- Header-bottom -->
+                <div class="header_bottom">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-3 m-3 c-12">
+                                <div class="header_bottom-left">
+                                    <p>Canon</p>
+                                    <p class="header_bottom-left-slogan"></p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col l-9">
-                            <div class="header_bottom-right row">
-                                <div class="header_bottom-right--content l-2 l-o-6">
-                                    <a href="#" class="header_bottom-right-icon"><i class="fal fa-copy"></i></a>
-                                    <a href="#" class="header_bottom-right-text">So sánh</a>
-                                </div>
-                                <div class="header_bottom-right--content l-2">
-                                    <a href="#" class="header_bottom-right-icon"><i class="fas fa-heart"></i></a>
-                                    <a href="#" class="header_bottom-right-text">Yêu thích</a>
-                                </div>
-                                <div class="header_bottom-right--content l-2">
-                                    <a href="#" class="header_bottom-right-icon"><i class="fas fa-user-alt"></i></a>
-                                    <a href="#" class="header_bottom-right-text">Đăng nhập</a>
+                            <div class="col l-9 m-9 c-0">
+                                <div class="header_bottom-right row">
+                                    <div class="header_bottom-right--content l-2 l-o-6 m-2 m-o-6">
+                                        <a href="#" class="header_bottom-right-icon"><i class="fal fa-copy"></i></a>
+                                        <a href="#" class="header_bottom-right-text">So sánh</a>
+                                    </div>
+                                    <div class="header_bottom-right--content l-2 m-2">
+                                        <a href="#" class="header_bottom-right-icon"><i class="fas fa-heart"></i></a>
+                                        <a href="#" class="header_bottom-right-text">Yêu thích</a>
+                                    </div>
+                                    <div class="header_bottom-right--content l-2 m-2">
+                                        <a href="#" class="header_bottom-right-icon"><i class="fas fa-user-alt"></i></a>
+                                        <a href="#" class="header_bottom-right-text">Đăng nhập</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -94,35 +123,35 @@
             <div class="slider">
                 <div class="grid wide">
                     <div class="slider_location row">
-                        <div class="slider_item col l-2">
+                        <div class="slider_item col l-2 m-2 c-3">
                             <div class="slider_item-img">
                                 <img src="../img/printer/inkjet.png" alt="">
                             </div>
                             <p class="slider_item-title">Máy in phun</p>
                             <a href="./inkjet.html" class="slider_item-link"></a>
                         </div>
-                        <div class="slider_item slider_select col l-2">
+                        <div class="slider_item slider_select col l-2 m-2 c-3">
                             <div class="slider_item-img">
                                 <img src="../img/printer/laser_printer.png" alt="">
                             </div>
                             <p class="slider_item-title">Máy in laser</p>
                             <a href="./laser_printers.html" class="slider_item-link"></a>
                         </div>
-                        <div class="slider_item col l-2">
+                        <div class="slider_item col l-2 m-2 c-3">
                             <div class="slider_item-img">
                                 <img src="../img/printer/mobile_printers.png" alt="">
                             </div>
                             <p class="slider_item-title">Máy in di động</p>
                             <a href="./mobile_printers.html" class="slider_item-link"></a>
                         </div>
-                        <div class="slider_item col l-2">
+                        <div class="slider_item col l-2 m-2 c-3">
                             <div class="slider_item-img">
                                 <img src="../img/printer/fax.jpg" alt="">
                             </div>
                             <p class="slider_item-title">Máy fax</p>
                             <a href="./fax.html" class="slider_item-link"></a>
                         </div>
-                        <div class="slider_item col l-2">
+                        <div class="slider_item col l-2 m-2 c-3">
                             <div class="slider_item-img">
                                 <img src="../img/printer/mobile_apps.png" alt="">
                             </div>
@@ -143,7 +172,7 @@
                 <div class="grid wide">
                     <div class="body_location row">
                         <!-- body left -->
-                        <div class="body_left col l-3">
+                        <div class="body_left col l-3 m-0 c-0">
                             <!-- sort -->
                             <div class="body_left__sort">
                                 <div class="body_left__sort-item">
@@ -199,10 +228,19 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Tablet -->
+                        <div class="body_tablet l-0">
+                            <div class="tablet_sort">
+                                <button class="btn btn_color">Sắp xếp theo</button>
+                            </div>
+                            <div class="tablet_filter">
+                                <button class="btn btn_color">Lọc bởi</button>
+                            </div>
+                        </div>
                         <!-- body right -->
-                        <div class="body_right col l-9">
+                        <div class="body_right col l-9 m-12 c-12">
                             <div class="body_right_location row">
-                                <div class="body_right-item col l-3">
+                                <div class="body_right-item col l-3 m-5 c-10">
                                     <div class="body_right-item--img">
                                         <a href="#">
                                             <img src="../img/printer/laser_printers/imageCLASS_LBP325x.png" alt="">
@@ -225,7 +263,7 @@
                                         <h4>25,960,000 VND</h4>
                                     </div>
                                 </div>
-                                <div class="body_right-item col l-3">
+                                <div class="body_right-item col l-3 m-5 c-10">
                                     <div class="body_right-item--img">
                                         <a href="#">
                                             <img src="../img/printer/laser_printers/imageCLASS_MF445dw.png" alt="">
@@ -248,7 +286,7 @@
                                         <h4>24,000,000 VND</h4>
                                     </div>
                                 </div>
-                                <div class="body_right-item col l-3">
+                                <div class="body_right-item col l-3 m-5 c-10">
                                     <div class="body_right-item--img">
                                         <a href="#">
                                             <img src="../img/printer/laser_printers/imageCLASS_MF449x.png" alt="">
@@ -271,7 +309,7 @@
                                         <h4>28,600,000 VND</h4>
                                     </div>
                                 </div>
-                                <div class="body_right-item col l-3">
+                                <div class="body_right-item col l-3 m-5 c-10">
                                     <div class="body_right-item--img">
                                         <a href="#">
                                             <img src="../img/printer/laser_printers/imageCLASS_MF543x.png" alt="">
@@ -304,43 +342,77 @@
         <div id="footer">
             <div class="footer">
                 <div class="grid wide">
-                    <div class="footer_location row">
-                        <div class="footer_content col l-2">
-                            <h3>Công ty</h3>
-                            <a href="#">Về chúng tôi</a>
-                            <a href="#">Trách nhiệm xã hội doanh nghiệp</a>
-                            <a href="#">Trang mạng xã hội chính thức</a>
-                            <a href="#">Tin tức và ấn phẩm</a>
-                            <a href="#">Sự kiện</a>
-                            <a href="#">Quy định sử dụng</a>
-                            <a href="#">Chính sách bảo mật</a>
-                        </div>
-                        <div class="footer_content col l-2">
-                            <h3>Các sản phẩm</h3>
-                            <a href="#">Máy ảnh</a>
-                            <a href="#">Máy in</a>
-                            <a href="#">Máy scan</a>
-                            <a href="#">Máy quay phim</a>
-                            <a href="#">Máy chiếu</a>
-                        </div>
-                        <div class="footer_content col l-2">
-                            <h3>Dịch vụ</h3>
-                            <a href="#">Nơi mua</a>
-                            <a href="#">Chống hàng giả</a>
-                        </div>
-                        <div class="footer_content col l-2">
-                            <h3>Hỗ trợ & Tải file</h3>
-                            <a href="#">Hỗ trợ & Tải file</a>
-                        </div>
-                        <div class="footer_content col l-2">
-                            <a href="#" class="footer_content-society"><i class="far fa-globe-americas"></i> Các trang Canon khác</a>
-                            <a href="#" class="society"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="society"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="society"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
                     <div class="footer_return">
-                        <a href="#" class="footer_return-icon"><i class="far fa-angle-up"></i></a>
+                        <a href="#" class="footer_return-icon l-0 m-0"><i class="far fa-angle-up"></i></a>
+                    </div>
+                    <div class="footer_location row">
+                        <div class="footer_content col l-2 m-2 c-12">
+                            <label for="checkbox_company">
+                                <h3>Công ty</h3>
+                            </label>
+                            <input type="checkbox" id="checkbox_company" class="checkbox_company l-0 m-0">
+                            <div class="footer_content-content">
+                                <ul>
+                                    <li><a href="../contact.html">Về chúng tôi</a></li>
+                                    <li><a href="#">Trách nhiệm xã hội doanh nghiệp</a></li>
+                                    <li><a href="#">Trang mạng xã hội chính thức</a></li>
+                                    <li><a href="#">Tin tức và ấn phẩm</a></li>
+                                    <li><a href="#">Sự kiện</a></li>
+                                    <li><a href="#">Quy định sử dụng</a></li>
+                                    <li><a href="#">Chính sách bảo mật</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer_content col l-2 m-2 c-12">
+                            <label for="checkbox_products">
+                                <h3>Các sản phẩm</h3>
+                            </label>
+                            <input type="checkbox" id="checkbox_products" class="checkbox_products l-0 m-0">
+                            <div class="footer_content-content">
+                                <ul>
+                                    <li><a href="../camara/mobile_app.html">Máy ảnh</a></li>
+                                    <li><a href="../printer/inkjet.html">Máy in</a></li>
+                                    <li><a href="../scanner/glass.html">Máy scan</a></li>
+                                    <li><a href="../videography/videography.html">Máy quay phim</a></li>
+                                    <li><a href="../projector/projector.html">Máy chiếu</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer_content col l-2 m-2 c-12">
+                            <label for="checkbox_services">
+                                <h3>Dịch vụ</h3>
+                            </label>
+                            <input type="checkbox" id="checkbox_services" class="checkbox_services l-0 m-0">
+                            <div class="footer_content-content">
+                                <ul>
+                                    <li><a href="#">Nơi mua</a></li>
+                                    <li><a href="#">Chống hàng giả</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer_content col l-2 m-2 c-12">
+                            <label for="checkbox_support">
+                                <h3>Hỗ trợ & Tải file</h3>
+                            </label>
+                            <input type="checkbox" id="checkbox_support" class="checkbox_support l-0 m-0">
+                            <div class="footer_content-content">
+                                <ul>
+                                    <li><a href="#">Hỗ trợ & Tải file</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer_content col l-2 m-2 c-12">
+                            <div class="footer_content-society">
+                                <i class="far fa-globe-americas l-0 m-0"></i>
+                                <h3>Các trang Canon khác</h3>
+                            </div>
+                            <div class="footer_society">
+                                <a href="#" class="society"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="society"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="society"><i class="fab fa-youtube"></i></a>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
