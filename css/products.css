@@ -518,7 +518,7 @@
     .side_bar-sort-title {
         display: flex;
         justify-content: space-between;
-        padding: 20px 0;
+        padding: 0 0 10px 0;
     }
     .side_bar-filter h6,
     .side_bar-sort h6 {
@@ -537,7 +537,7 @@
         justify-content: end;
         font-weight: 600;
         font-size: 16px;
-        padding: 20px 20px;
+        padding: 20px 0 20px 20px;
     }
     .custom-select {
         border-radius: 20px;
