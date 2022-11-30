@@ -1,0 +1,37 @@
+
+
+
+.btn-upload {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn-upload input[type=file] {
+    position: absolute;
+    opacity: 0; 
+    z-index: 0;
+    width: 100%;
+    padding: 7px;
+    display: block;
+}
+.btn-upload .btn{
+    padding: 8px 50px;
+    background: #337ab7;
+    border: 1px solid #2e6da4;
+    color: #fff;
+    border: 0;
+}
+.btn-upload:hover .btn{
+    padding: 8px 50px;
+    background: #2e6da4;
+    color: #fff;
+    border: 0;
+}
+#displayImg img {
+  width: 250px;
+  height: 200px;
+  margin-bottom: 0.8rem;
+  object-fit: cover;
+  border-radius: 10px;
+}
